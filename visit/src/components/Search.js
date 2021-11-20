@@ -8,7 +8,7 @@ class Search extends Component {
     const update = this.props;
 
     axios
-      .post("http://localhost:3001/getLocations", {
+      .post("http://34.125.6.193:3001/getLocations", {
         city: keyTyped,
       })
       .then(function (response) {
